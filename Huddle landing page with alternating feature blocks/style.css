@@ -1,0 +1,200 @@
+:root {
+    --Pink: hsl(322, 100%, 66%);
+    --VeryPaleCyan: hsl(193, 100%, 96%);
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --GrayishBlue: hsl(208, 11%, 55%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+.hero {
+    background-image: url(images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: var(--VeryPaleCyan);
+}
+.header {
+    padding: 2ch;
+    justify-content: space-between;
+    padding-top: 2ch;
+    display: flex;
+    text-align: center;
+}
+.logo {
+    width: 10ch;
+    height: 1.5ch;
+    margin-top: 1ch;
+}
+.button-header {
+    padding: 1ch 5ch;
+    background-color: #fff;
+    text-decoration: none;
+    color: var(--VeryDarkCyan);
+    font-weight: 700;
+    font-size: 12px;
+    border-radius: 40px;
+    box-shadow:  1px 1px 5px -2px hsla(192, 100%, 9%, 0.459);
+}
+.header-textbox {
+    margin:2ch;
+    margin-top: 7ch;
+    text-align: center;
+}
+.title-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    margin-bottom: 2ch;
+    color: var(--VeryDarkCyan);
+    font-weight: 600;
+}
+.header-subtitle {
+    font-weight: 400;
+    color: var(--VeryDarkCyan);
+    letter-spacing: .5px;
+    margin: 1ch;
+    margin-bottom: 5ch;
+}
+.button {
+    padding: 1.5ch 6ch;
+    background-color: var(--Pink);
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.header-image-box {
+    margin: 2ch;
+    margin-top: 5ch;
+    text-align: center;
+}
+.header-image {
+    width: 30ch;
+}
+.content-image {
+    width: 20ch;
+    height: 15ch;
+    margin: 3ch;
+}
+.content {
+    margin: 3ch;
+    align-items: center;
+}
+.content-types {
+    box-shadow:  1px 1px 10px -1px hsla(192, 100%, 9%, 0.226);
+    margin: 1ch;
+    border-radius: 20px;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+}
+.type-title {
+    margin: 1ch;
+    font-family: 'Poppins', sans-serif;
+    white-space: nowrap;
+    font-size: 18px;
+    color: var(--VeryDarkCyan);
+}
+.type-sub-title {
+    margin: 3ch;
+    margin-top: 2ch;
+    font-size: 16px;
+    color: var(--GrayishBlue);
+}
+.content-alarm {
+    margin: 2ch;
+    text-align: center;
+}
+.alarm-box {
+    box-shadow:  1px -5px 10px -1px hsla(192, 100%, 9%, 0.226);
+    border-radius: 20px;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    height: 20ch;
+    position: relative;
+    top: 10ch;
+    z-index: 20;
+    background-color: #fff;
+}
+.alarm-box  a {
+    margin: 2ch;
+}
+.alarm-title {
+    margin: 2ch;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+.footer {
+    position: relative;
+    z-index: 5;
+    background-color: var(--VeryDarkCyan);
+    color:white ;
+}
+.logo-footer-box {
+    position: relative;
+    z-index: 7;
+    padding-top: 15ch;
+    filter:  brightness(0) invert(1);
+    margin: 2ch;
+}
+.logo-footer {
+    width: 15ch;
+}
+.location-box , .phone-box , .email-box {
+    margin: 2ch;
+    list-style: none;
+    display: flex;
+    font-weight: 400;
+    font-size: 15px;
+}
+.location-text, .phone-text , .email-text {
+    margin-left: 2ch;
+}
+.about-us-box {
+    list-style: none;
+    margin-top: 4ch;
+}
+.about-us-items {
+    margin: 1.5ch;
+    margin-left: 2ch;
+}
+.social-media-box {
+    padding: 2ch;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-items a {
+    width: 40px;
+    margin: 2ch;
+    text-decoration: none;
+    color: #fff;
+    padding: 1ch;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 2ch;
+    text-align: center;
+}
+.button-header:focus{
+    color:var(--GrayishBlue);
+}
+.button:focus {
+    background-color: hsla(322, 100%, 66%, 0.651);
+}
+.fa-facebook:focus , .fa-twitter:focus , .fa-instagram:focus  {
+    color: var(--Pink);
+    padding: 1ch;
+    border: 2px solid var(--Pink);
+    border-radius: 50%;
+    margin: 2ch;
+    text-align: center;
+}

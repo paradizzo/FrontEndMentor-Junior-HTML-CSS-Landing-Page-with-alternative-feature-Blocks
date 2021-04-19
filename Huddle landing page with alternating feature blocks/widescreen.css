@@ -1,0 +1,94 @@
+.hero {
+    background-image: url(images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+}
+.header {
+    padding: 5ch;
+}
+.logo {
+    width: 25ch;
+    height: 4ch;
+    margin: 0;
+}
+.button-header {
+    font-size: 18px;
+}
+.wraper {
+    display: flex;
+    padding: 4ch;
+    justify-content: space-between;
+}
+.header-textbox {
+    width: 50ch;
+}
+.header-image {
+    width: 65ch;
+}
+.title-box {
+    text-align: left;
+    margin: 1ch;
+}
+.sub-title-box {
+    text-align: left;
+}
+.content-types {
+    display: flex;
+    margin: 4ch;
+    text-align: center;
+    justify-content: space-between;
+}
+.content-image {
+    width: 40ch;
+    height: auto;
+
+}
+.type-wraper {
+    position: relative;
+    margin: 3ch;
+    width: 50ch;
+    text-align: left;
+    justify-content: center;
+    display: block;
+    top: 8ch;
+}
+.type-sub-title , .type-title{
+    margin: 1ch;
+}
+#users-image , #grow-together-image {
+    position: relative;
+    left: 75ch;
+}
+#grow-together-wraper , #users-wraper {
+    position: relative;
+    right: 60ch;
+}
+#conversation-wraper {
+    position: relative;
+    right: 10ch;
+}
+.wraper-footer {
+    padding-top: 8ch;
+    display: flex;
+    justify-content: space-between;
+}
+.location-box , .phone-box , .email-box {
+    max-width: 30ch;
+}
+.logo-footer-box {
+    padding: 0;
+}
+.wraper-info {
+    padding: 8ch;
+    width: 50ch;
+}
+.about-us-box {
+    padding: 8ch;
+    margin: 0;
+    
+}
+.social-media-box {
+    padding: 8ch;
+}
+.social-media-items {
+    margin-top: 5ch;
+}
